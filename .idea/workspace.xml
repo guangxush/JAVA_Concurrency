@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3914d7bf-a04e-4f26-98db-330f12c25a20" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/chapter/four/Daemon.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/chapter/four/MultiThread.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/chapter/four/Priority.java" afterDir="false" />
@@ -13,60 +14,17 @@
       <change afterPath="$PROJECT_DIR$/../SpringBoot_Config/src/main/resources/config/email.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringBoot_Config/src/test/java/com/shgx/conf/controller/MailControllerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringBoot_Config/src/test/java/com/shgx/conf/email/MailSenderTest.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/ConnectionDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/ConnectionPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/DefaultThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/Join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/Profiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/SimpleHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter/four/ThreadPool.java" afterDir="false" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_DB/sql/users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_DB/sql/users.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/enums/UserSexEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/enums/UserSexEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_DB/src/main/java/com/shgx/db/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_DB/src/test/java/com/shgx/db/Mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_DB/src/test/java/com/shgx/db/Mapper/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/KafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/KafkaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/KafkaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/KafkaResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/consumer/KafkaReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/consumer/KafkaReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/dao/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/dao/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/dao/SchemaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/dao/SchemaData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/FileProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/FileProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/KafkaSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/KafkaSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/PostProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/producer/PostProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/services/FileWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/java/com/shgx/kafka/services/FileWatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Kafka/src/test/java/com/shgx/kafka/services/FileWatcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Kafka/src/test/java/com/shgx/kafka/services/FileWatcherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Controller/Regist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Controller/Regist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Services/RegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/Services/RegService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/SysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Web/src/main/java/com/shgx/sys/SysApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/main/resources/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/test/java/com/shgx/sys/Controller/RegistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Web/src/test/java/com/shgx/sys/Controller/RegistTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot_Web/src/test/java/com/shgx/sys/Mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Web/src/test/java/com/shgx/sys/Mapper/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/src/cn/shgx/dao/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/src/cn/shgx/dao/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/src/main/java/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/src/main/java/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/src/main/java/RequestWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/src/main/java/Truck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/src/main/java/VehicleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestJson/src/webapp/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Controller/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Dao/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Dao/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Dao/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Dao/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Services/RequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../json/src/main/java/com/example/json/Services/RequestWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../json/src/test/java/com/example/json/Controller/VehicleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../json/src/test/java/com/example/json/Controller/VehicleControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jsontest/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jsontest/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jsontest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shgx/src/main/java/com/example/shgx/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shgx/src/main/java/com/example/shgx/controller/VehicleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shgx/src/main/java/com/example/shgx/dao/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shgx/src/main/java/com/example/shgx/dao/Truck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shgx/src/main/java/com/example/shgx/services/RequestWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test1/.idea/vcs.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,31 +71,83 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="371599351">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="10395" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10395" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/chapter/four/MultiThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/WaitNotify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/chapter/four/Priority.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
               <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/Piped.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/chapter/four/ThreadStatus.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
@@ -145,30 +155,66 @@
               <folding>
                 <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/Join.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter/four/Daemon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/Profiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+              <folding>
+                <element signature="e#109#235#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+              </folding>
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/chapter/four/SleepUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/ConnectionPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/chapter/three/FinalReferenceEscapeExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -176,43 +222,81 @@
               <folding>
                 <element signature="e#344#345#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/ConnectionPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-822">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter/three/DoubleCheckedLocking.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/ThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="171">
               <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+=======
+            <state relative-caret-position="228">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter/three/SafeDoubleCheckedLocking.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/DefaultThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="304">
               <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+=======
+            <state relative-caret-position="-1164">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2128#2129#0" expanded="true" />
+                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#2275#2276#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+              </folding>
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter/three/InstanceFactory.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/SimpleHttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="190">
               <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+=======
+            <state relative-caret-position="166">
+              <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+              </folding>
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter/three/Instance.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter/four/ConnectionDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="147">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,6 +306,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -260,10 +345,30 @@
         <option value="$PROJECT_DIR$/src/chapter/three/SafeDoubleCheckedLocking.java" />
         <option value="$PROJECT_DIR$/src/chapter/three/InstanceFactory.java" />
         <option value="$PROJECT_DIR$/src/chapter/three/FinalReferenceEscapeExample.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/chapter/four/MultiThread.java" />
         <option value="$PROJECT_DIR$/src/chapter/four/Priority.java" />
         <option value="$PROJECT_DIR$/src/chapter/four/SleepUtils.java" />
         <option value="$PROJECT_DIR$/src/chapter/four/ThreadStatus.java" />
+=======
+        <option value="$PROJECT_DIR$/src/chapter/four/SleepUtils.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Daemon.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/ThreadDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Interrupted.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Deprecated.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Shutdown.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Synchronized.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/WaitNotify.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Piped.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Join.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/Profiler.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/ConnectionDriver.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/ConnectionPoolTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/DefaultThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/chapter/four/SimpleHttpServer.java" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
       </list>
     </option>
   </component>
@@ -273,10 +378,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="790" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-310" />
+    <option name="y" value="-22" />
+    <option name="width" value="2826" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,8 +392,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,24 +422,57 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter" type="462c0819:PsiDirectoryNode" />
               <item name="four" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+            </path>
+            <path>
+              <item name="JAVA_Concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_Concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="three" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_Concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="two" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="Scope" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536913765399" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537769161505" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -343,13 +486,19 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Priority">
     <configuration name="ConcurrencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter.one.ConcurrencyTest" />
+=======
+  <component name="RunManager" selected="Application.ConnectionPoolTest">
+    <configuration name="ConnectionPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter.four.ConnectionPoolTest" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
       <module name="JAVA_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter.one.*" />
+          <option name="PATTERN" value="chapter.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,12 +506,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter.two.Counter" />
+    <configuration name="Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter.four.Join" />
       <module name="JAVA_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter.two.*" />
+          <option name="PATTERN" value="chapter.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,12 +519,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter.one.DeadLockDemo" />
+    <configuration name="Piped" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter.four.Piped" />
       <module name="JAVA_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter.one.*" />
+          <option name="PATTERN" value="chapter.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Profiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter.four.Profiler" />
+      <module name="JAVA_Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter.four.WaitNotify" />
+      <module name="JAVA_Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,6 +585,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.ConcurrencyTest" />
       <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.Counter" />
@@ -423,6 +599,21 @@
         <item itemvalue="Application.Counter" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.ConcurrencyTest" />
+=======
+      <item itemvalue="Application.WaitNotify" />
+      <item itemvalue="Application.Piped" />
+      <item itemvalue="Application.Join" />
+      <item itemvalue="Application.Profiler" />
+      <item itemvalue="Application.ConnectionPoolTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConnectionPoolTest" />
+        <item itemvalue="Application.Profiler" />
+        <item itemvalue="Application.Join" />
+        <item itemvalue="Application.Piped" />
+        <item itemvalue="Application.WaitNotify" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
       </list>
     </recent_temporary>
   </component>
@@ -438,14 +629,25 @@
       <updated>1536500301427</updated>
       <workItem from="1536500303922" duration="5862000" />
       <workItem from="1536506302065" duration="202000" />
+<<<<<<< HEAD
       <workItem from="1536902746870" duration="6001000" />
       <workItem from="1536913738736" duration="314000" />
       <workItem from="1536915257399" duration="534000" />
+=======
+      <workItem from="1536902746870" duration="2783000" />
+      <workItem from="1537750322155" duration="109000" />
+      <workItem from="1537750461728" duration="928000" />
+      <workItem from="1537753596189" duration="13439000" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12913000" />
+=======
+    <option name="totallyTimeSpent" value="23323000" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,10 +659,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="790" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,16 +675,20 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31034482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2679083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295129" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295129" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30634278" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928476" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -509,13 +719,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="744" selection-start-line="744" selection-end-line="744" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter/two/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -595,64 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/one/ConcurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
+        <state relative-caret-position="190">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/three/UnsafeLazyInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/three/SafeLazyInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/three/FinalReferencesExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/four/MultiThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/four/Priority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/four/ThreadStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/four/SleepUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -667,6 +815,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/three/UnsafeLazyInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/three/SafeLazyInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/three/FinalReferencesExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="247">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+=======
+        <state relative-caret-position="171">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/MultiThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="57">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Priority.java">
+=======
+        <state relative-caret-position="304">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/three/InstanceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/three/Instance.java">
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/ThreadStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/chapter/three/FinalReferencesExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Daemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6384">
+          <caret line="385" selection-start-line="385" selection-end-line="385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/SleepUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13148">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Interrupted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Deprecated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/SleepUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/three/FinalReferenceEscapeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Shutdown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/chapter/three/DoubleCheckedLocking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -699,6 +1004,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Synchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/WaitNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Piped.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/Profiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#109#235#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/ConnectionDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="289" column="16" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="16" />
+          <folding>
+            <element signature="e#9899#9900#0" expanded="true" />
+            <element signature="e#9936#9937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/ConnectionPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/DefaultThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1164">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/four/SimpleHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+>>>>>>> 4b64d344a54fe79d14804aaa8e4bb8cbad9f1174
         </state>
       </provider>
     </entry>
