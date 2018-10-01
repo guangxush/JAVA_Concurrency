@@ -6,6 +6,7 @@ import java.util.concurrent.locks.LockSupport;
  * Created by gshan on 2018/10/1
  */
 public class ConditionObject {
+    /**
     public final void await() throws InterruptedException{
         if (Thread.interrupted())
             throw new InterruptedException();
@@ -34,5 +35,5 @@ public class ConditionObject {
         Node first = firstWaiter;
         if(first!=null)
             doSingal(first);
-    }
+    }**/
 }
