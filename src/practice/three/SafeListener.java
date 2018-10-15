@@ -12,7 +12,7 @@ public class SafeListener {
             public void onEvnet(Event event){
                 dosomething(e);
             }
-        }
+        };
     }
     public static SafeListener newInstance(EventListener source){
         SafeListener safe = new SafeListener();

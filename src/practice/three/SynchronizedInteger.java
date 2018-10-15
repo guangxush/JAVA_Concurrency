@@ -1,13 +1,14 @@
 package practice.three;
 
-import org.junit.runner.notification.RunListener;
+import net.jcip.annotations.GuardedBy;
+import net.jcip.annotations.ThreadSafe;
 
 /**
  * 线程安全的可变整数访问器
  */
-@RunListener.ThreadSafe
+@ThreadSafe
 public class SynchronizedInteger {
-    @GuardeBy("this")
+    @GuardedBy("this")
     private int value;
 
     public synchronized int get(){
